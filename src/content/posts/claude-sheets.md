@@ -6,6 +6,7 @@ lang: zh-CN
 category: office
 tags: ["AI 办公", "电子表格"]
 cover: tool
+coverImage: "/images/tools/claude-sheets/home.webp"
 featured: false
 draft: false
 pricingModel: paid
