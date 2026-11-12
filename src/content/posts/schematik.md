@@ -6,6 +6,7 @@ lang: zh-CN
 category: coding
 tags: ["AI 编程", "ESP32", "Arduino"]
 cover: tool
+coverImage: "/images/tools/schematik/home.webp"
 featured: false
 draft: false
 pricingModel: free
