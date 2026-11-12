@@ -6,6 +6,7 @@ lang: zh-CN
 category: office
 tags: ["AI 办公", "订阅管理"]
 cover: tool
+coverImage: "/images/tools/subscriptrack/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
