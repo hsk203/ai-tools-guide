@@ -6,6 +6,7 @@ lang: zh-CN
 category: coding
 tags: ["AI 编程", "开源工具", "轻量"]
 cover: tool
+coverImage: "/images/tools/prospero/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
