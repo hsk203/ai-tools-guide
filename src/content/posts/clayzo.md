@@ -6,6 +6,7 @@ lang: zh-CN
 category: art
 tags: ["AI 绘画", "动画", "动效设计"]
 cover: tool
+coverImage: "/images/tools/clayzo/home.webp"
 featured: false
 draft: false
 pricingModel: free
