@@ -6,6 +6,7 @@ lang: zh-CN
 category: art
 tags: ["AI 绘画", "GPT", "GIF 动图"]
 cover: tool
+coverImage: "/images/tools/gpt-image-2-6/docs.webp"
 featured: false
 draft: false
 pricingModel: freemium
