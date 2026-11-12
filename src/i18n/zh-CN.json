@@ -269,5 +269,6 @@
   "tool.freemium": "免费+付费",
   "tool.paid": "付费",
   "home.categoriesTitle": "按分类找工具",
-  "home.categoriesSubtitle": "五个分类，先从你最需要的开始。"
+  "home.categoriesSubtitle": "五个分类，先从你最需要的开始。",
+  "category.b2b": "B2B 软件"
 }
