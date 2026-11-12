@@ -269,5 +269,6 @@
   "tool.freemium": "Freemium",
   "tool.paid": "Paid",
   "home.categoriesTitle": "Browse by Category",
-  "home.categoriesSubtitle": "Five categories — start with what you need most."
+  "home.categoriesSubtitle": "Five categories — start with what you need most.",
+  "category.b2b": "B2B Software"
 }
