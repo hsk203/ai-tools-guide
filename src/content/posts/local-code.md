@@ -6,6 +6,7 @@ lang: zh-CN
 category: coding
 tags: ["AI 编程", "本地模型", "Mac 应用"]
 cover: tool
+coverImage: "/images/tools/local-code/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
