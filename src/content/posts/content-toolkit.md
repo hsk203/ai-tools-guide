@@ -6,6 +6,7 @@ lang: zh-CN
 category: writing
 tags: ["AI 写作", "SEO", "Semrush"]
 cover: tool
+coverImage: "/images/tools/content-toolkit/home.webp"
 featured: false
 draft: false
 pricingModel: paid
