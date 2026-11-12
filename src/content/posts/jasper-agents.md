@@ -6,6 +6,7 @@ lang: zh-CN
 category: writing
 tags: ["AI 写作", "营销文案", "品牌声音"]
 cover: tool
+coverImage: "/images/tools/jasper-agents/home.webp"
 featured: false
 draft: false
 pricingModel: paid
