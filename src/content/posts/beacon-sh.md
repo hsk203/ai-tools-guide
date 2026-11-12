@@ -6,6 +6,7 @@ lang: zh-CN
 category: coding
 tags: ["AI 编程", "Agent 记忆", "Claude Code"]
 cover: tool
+coverImage: "/images/tools/beacon-sh/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
