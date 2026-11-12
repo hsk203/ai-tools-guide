@@ -6,6 +6,7 @@ lang: zh-CN
 category: art
 tags: ["AI 绘画", "AI 建站", "网站设计"]
 cover: tool
+coverImage: "/images/tools/framer-ai-agents/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
