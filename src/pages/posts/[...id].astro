@@ -76,7 +76,7 @@ const older = posts[index + 1];
         <p>{post.data.description}</p>
       </header>
       <div class="article-cover">
-        <PostCover kind={post.data.cover} featured={post.data.featured} />
+        <PostCover kind={post.data.cover} featured={post.data.featured} image={post.data.coverImage} />
       </div>
       {hasToolInfo && (
         <section class="tool-info" aria-label={t("tool.infoTitle")}>
