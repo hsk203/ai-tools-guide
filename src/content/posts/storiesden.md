@@ -6,6 +6,7 @@ lang: zh-CN
 category: writing
 tags: ["AI 写作", "写书", "自出版"]
 cover: tool
+coverImage: "/images/tools/storiesden/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
