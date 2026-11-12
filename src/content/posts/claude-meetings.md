@@ -6,6 +6,7 @@ lang: zh-CN
 category: office
 tags: ["AI 办公", "会议记录"]
 cover: tool
+coverImage: "/images/tools/claude-meetings/pricing.webp"
 featured: false
 draft: false
 pricingModel: paid
