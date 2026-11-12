@@ -6,6 +6,7 @@ lang: zh-CN
 category: video
 tags: ["AI 视频", "内容营销", "视频托管"]
 cover: tool
+coverImage: "/images/tools/videco/pricing.webp"
 featured: false
 draft: false
 pricingModel: paid
