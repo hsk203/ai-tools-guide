@@ -34,6 +34,12 @@ async function main() {
       continue;
     }
     const [, fm, body] = match;
+    // Only convert Simplified Chinese posts (lang: zh-CN or missing).
+    // English (lang: en) and other-language posts are skipped.
+    const langMatch = fm.match(/^\s*lang:\s*(\S+)/m);
+    if (langMatch && langMatch[1] !== "zh-CN") {
+      continue;
+    }
     const lines = fm.split(/\r?\n/).map((line) => {
       const m = line.match(/^(\s*)([A-Za-z]+):\s*(.*)$/);
       if (!m) return line;
