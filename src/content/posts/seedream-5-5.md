@@ -6,6 +6,7 @@ lang: zh-CN
 category: art
 tags: ["AI 绘画", "多轮编辑", "透明素材"]
 cover: tool
+coverImage: "/images/tools/seedream-5-5/feature.webp"
 featured: false
 draft: false
 pricingModel: paid
