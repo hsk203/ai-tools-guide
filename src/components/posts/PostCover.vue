@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { t } from "../../i18n";
-defineProps<{ kind: string; featured?: boolean }>();
+defineProps<{ kind: string; featured?: boolean; image?: string }>();
 const labels: Record<string, { icon: string; title: string; sub: string }> = {
   astro: {
     icon: "icon-[simple-icons--astro]",
@@ -50,18 +50,31 @@ const labels: Record<string, { icon: string; title: string; sub: string }> = {
 };
 </script>
 <template>
-  <div class="post-cover" :class="[kind, { featured }]" aria-hidden="true">
-    <div class="cover-grid"></div>
-    <span class="cover-orbit"></span><span class="cover-dot"></span>
-    <span class="cover-corner">{{ t("cover.journal") }}</span>
-    <span class="cover-icon" :class="labels[kind]?.icon"></span>
-    <strong>{{
-      featured ? t("cover.featuredTitle") : labels[kind]?.title
-    }}</strong>
-    <small>{{
-      featured ? t("cover.featuredSubtitle") : labels[kind]?.sub
-    }}</small>
-    <span class="cover-star">✧</span>
+  <div
+    class="post-cover"
+    :class="[kind, { featured, 'has-image': !!image }]"
+    aria-hidden="true"
+  >
+    <img
+      v-if="image"
+      :src="image"
+      alt=""
+      loading="lazy"
+      class="cover-image"
+    />
+    <template v-else>
+      <div class="cover-grid"></div>
+      <span class="cover-orbit"></span><span class="cover-dot"></span>
+      <span class="cover-corner">{{ t("cover.journal") }}</span>
+      <span class="cover-icon" :class="labels[kind]?.icon"></span>
+      <strong>{{
+        featured ? t("cover.featuredTitle") : labels[kind]?.title
+      }}</strong>
+      <small>{{
+        featured ? t("cover.featuredSubtitle") : labels[kind]?.sub
+      }}</small>
+      <span class="cover-star">✧</span>
+    </template>
   </div>
 </template>
 <style scoped>
@@ -78,6 +91,16 @@ const labels: Record<string, { icon: string; title: string; sub: string }> = {
   background: #eee6f7;
   padding: 28px 12px;
   isolation: isolate;
+}
+.post-cover.has-image {
+  padding: 0;
+}
+.cover-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 180px;
+  object-fit: cover;
 }
 .cover-grid {
   position: absolute;
