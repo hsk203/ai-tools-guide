@@ -6,6 +6,7 @@ lang: zh-CN
 category: writing
 tags: ["AI 写作", "笔记", "Medium"]
 cover: tool
+coverImage: "/images/tools/medium-tk/home.webp"
 featured: false
 draft: false
 pricingModel: free
