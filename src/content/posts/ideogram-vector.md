@@ -6,6 +6,7 @@ lang: zh-CN
 category: art
 tags: ["AI 绘画", "矢量图", "Logo 设计"]
 cover: tool
+coverImage: "/images/tools/ideogram-vector/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
