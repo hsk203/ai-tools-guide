@@ -6,6 +6,7 @@ lang: zh-CN
 category: office
 tags: ["AI 办公", "语音转文字"]
 cover: tool
+coverImage: "/images/tools/earlybird/paper.webp"
 featured: false
 draft: false
 pricingModel: free
