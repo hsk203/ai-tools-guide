@@ -6,6 +6,7 @@ lang: zh-CN
 category: video
 tags: ["AI 视频", "文生视频", "Google"]
 cover: tool
+coverImage: "/images/tools/gemini-omni-flash/docs.webp"
 featured: false
 draft: false
 pricingModel: paid
