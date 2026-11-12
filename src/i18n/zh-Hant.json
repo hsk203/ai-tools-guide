@@ -269,5 +269,6 @@
   "tool.freemium": "免費+付費",
   "tool.paid": "付費",
   "home.categoriesTitle": "按分類找工具",
-  "home.categoriesSubtitle": "五個分類，先從你最需要的開始。"
+  "home.categoriesSubtitle": "五個分類，先從你最需要的開始。",
+  "category.b2b": "B2B 軟體"
 }
