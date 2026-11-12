@@ -6,6 +6,7 @@ lang: zh-CN
 category: office
 tags: ["AI 办公", "本地 AI"]
 cover: tool
+coverImage: "/images/tools/sentient-os/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
