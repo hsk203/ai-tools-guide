@@ -6,6 +6,7 @@ lang: zh-CN
 category: office
 tags: ["AI 办公", "白板协作"]
 cover: tool
+coverImage: "/images/tools/claude-whiteboards/home.webp"
 featured: false
 draft: false
 pricingModel: paid
