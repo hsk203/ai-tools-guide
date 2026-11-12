@@ -20,6 +20,8 @@ Ideogram Vector 1.0 是 Ideogram 2026 年 10 月 22 日发布的矢量模型，�
 
 Ideogram 本来就以“文字渲染准”出名，Vector 1.0 是它的第一个矢量模型，也是目前少数能一句话生成真正可编辑 SVG 的 AI 工具。生成的不是一张“看起来像矢量”的图，而是由独立形状组成的 SVG 文件，可以在 Illustrator、Figma、Canva 里逐个选中形状改颜色、改大小、删元素。模型同时在 Ideogram 网页应用和 API 上线，官方说法是“所有套餐都可用”。它有两种模式：文字转矢量和图片转矢量，后者不需要写提示词，上传已有 artwork 就能转。
 
+![Ideogram Vector 官网模型页，从一句话或一张图生成可编辑矢量图](/images/tools/ideogram-vector/home.webp)
+
 ## 能干什么
 
 - **文字转矢量**：写一句描述，比如“复古徽章风格的咖啡店 Logo，圆形，棕色配米白”，直接生成可编辑 SVG，还能加参考图定风格。
@@ -41,6 +43,8 @@ Ideogram 本来就以“文字渲染准”出名，Vector 1.0 是它的第一个
 | API 图片转矢量 | $0.10/张 | 按图计费 |
 
 注意：官方没有公开 Vector 在应用内每次生成消耗多少 credits，Plus 的 2400 credits 能做多少张 SVG 要以应用内实际扣费为准，不要直接按 API 价换算。导出格式方面，官方页面只提到 SVG，未提及 PDF、EPS 或 DXF，印刷厂要其他格式需自己转。
+
+![Ideogram 官网定价页，Plus、Pro、Team 与 Enterprise 四档套餐](/images/tools/ideogram-vector/pricing.webp)
 
 ## 怎么用
 

@@ -23,6 +23,8 @@ Semrush 是老牌 SEO 套件，2026 年把它旗下的内容工具拆成独立�
 
 它和通用 AI 写手的区别是每一篇稿子都有数据打底：选题来自真实搜索需求，优化打分对照的是排在前面的竞争对手页面，而不是凭模型“感觉”写。另外值得注意的是，Adobe 对 Semrush 的收购在 2026 年完成，多家评测提醒产品路线图还在调整期，长期规划要留个心眼。
 
+![Semrush Content Toolkit 官网首页](/images/tools/content-toolkit/home.webp)
+
 ## 能干什么
 
 - **找选题**：按国家和领域，每周给出一批有搜索需求的内容点子，不用自己凭空想选题。
@@ -32,6 +34,8 @@ Semrush 是老牌 SEO 套件，2026 年把它旗下的内容工具拆成独立�
 - **一键发 WordPress**：写完优化好直接发布到 WordPress，不用复制粘贴倒来倒去。
 - **AI 配图**：给文章配 AI 生成的图片，省去找图的步骤。
 - **额度**：Base 档每月可处理 1 万篇标准文章，其中 5 篇可用 SEO 强化（SEO boosts）做深度优化。
+
+![Content Toolkit 官网对按数据生成高排名内容的介绍](/images/tools/content-toolkit/feature.webp)
 
 ## 免费还是付费
 
@@ -44,6 +48,8 @@ Semrush 是老牌 SEO 套件，2026 年把它旗下的内容工具拆成独立�
 
 最容易踩的坑是把 $60 当成“Semrush 全套”：这只是内容工具包的价格，Semrush 的 SEO 套餐本身另算（Pro 档 $139.95/月起）。已经买了 Guru 及以上套餐的用户，部分内容优化功能可能已经包含，先核对自己的套餐再决定要不要单买。
 
+![Semrush Content Toolkit 官网定价页](/images/tools/content-toolkit/pricing.webp)
+
 ## 怎么用
 
 1. 注册 Semrush 账号，开通 Content Toolkit 的 7 天试用，先确认流程顺不顺手。
@@ -51,6 +57,8 @@ Semrush 是老牌 SEO 套件，2026 年把它旗下的内容工具拆成独立�
 3. 生成 SEO 简报，确认关键词和结构没问题再开写，别让 AI 自由发挥定方向。
 4. 用 AI 起草初稿，人工改写润色，重点核对事实、数据和产品说法。
 5. 跑内容优化打分，分数达标后一键发到 WordPress，定期回来看排名变化。
+
+![Semrush 知识库中的 Content Toolkit 文档](/images/tools/content-toolkit/docs.webp)
 
 ## 国内使用注意
 

@@ -21,6 +21,8 @@ Higgsfield Katana 是 Higgsfield 在 2026 年 10 月 8 日推出的 Claude 技�
 
 Katana 不是一个独立的剪辑软件，而是一个跑在 Claude 对话里的 Higgsfield 技能，通过 Higgsfield MCP 连接器工作。它不从零生成视频，而是“照着抄”：先读懂参考成片的镜头顺序、时长和卡点，再用你照片里的人物、产品或服装替换进去，重新生成并拼成一条新片。输出的 MP4 会保持参考片的时长、画幅和帧率，这些参数在 Claude 里不能单独改。Katana 适合已经知道成片应该长什么样的场景，比如看到一条爆款产品视频、时尚短片或转场剪辑效果很好，想换成自己的货来拍同款。
 
+![Higgsfield 官网首页：视频作品展示与 MCP、Seedance 等产品入口](/images/tools/higgsfield-katana/home.webp)
+
 ## 能干什么
 
 - **复刻参考剪辑**：上传自己的参考视频，或从 Katana 预设库里挑一个现成的，Katana 会按原片的镜头顺序、节奏和卡点重建一条新片。

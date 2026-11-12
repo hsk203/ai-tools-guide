@@ -21,6 +21,8 @@ FLUX 3 Image 是德国 Black Forest Labs 2026 年 10 月 1 日上线的图像模
 
 FLUX 3 Image 是 FLUX 3 多模态家族的图像部分，同一架构还覆盖视频、音频与动作。它的核心设计是“布局即提示词”：你给每个重要元素画一个边界框（bounding box），再用一句话描述整个场景，模型按框出图，元素不会乱跑、不会互相遮挡错位，官方说法是“对每一个像素的最大控制”。模型通过 BFL API 和浏览器 Playground 提供，没有免费套餐，按分辨率按张计费。同家族还有更便宜的精简版 FLUX 3 Image Klein，适合预算有限的批量出图。
 
+![Black Forest Labs 官网首页，FLUX 3 多模态模型主视觉](/images/tools/flux-3-image/home.webp)
+
 ## 能干什么
 
 - **边界框排版**：用 JSON 写一个元素表，每个元素有 id、边界框坐标和描述，比如标题放左上、人物放中间、产品放右下，适合海报、杂志跨页、电商主图、拼贴和多格漫画这种“位置不能错”的图。
@@ -43,6 +45,8 @@ FLUX 3 Image 是 FLUX 3 多模态家族的图像部分，同一架构还覆盖�
 
 参考图不额外收费，宽高比不影响价格，但 4K 的价格是 1K 的 12 倍多，出 4K 之前先用 1K 把构图定下来。Playground 提供免费演示入口，但免费额度官网未公开，以页面实际显示为准。精简版 Klein 便宜得多，约 $0.008/张起，4K 约 $0.036/张，画质要求不高时可优先考虑。
 
+![Black Forest Labs 官网定价页，FLUX 3 Image 按分辨率按张计费](/images/tools/flux-3-image/pricing.webp)
+
 ## 怎么用
 
 1. 打开 bfl.ai 的 FLUX 3 Image 页面，进 Playground 注册账号并充值 credits。
@@ -51,6 +55,8 @@ FLUX 3 Image 是 FLUX 3 多模态家族的图像部分，同一架构还覆盖�
 4. **融合参考图**：上传最多 10 张参考图，说明每张图在画面里扮演什么角色，一次生成。
 5. **改图**：选中要改的框，重新描述、替换或移动它，其他框不动；也可以一次改多个框。
 6. **走 API**：调用 `POST https://api.bfl.ai/v1/flux-3-image`，同一个接口同时负责生成、编辑与多图融合，无需切换模式。
+
+![Black Forest Labs 官方文档首页，FLUX 3 模型家族使用入口](/images/tools/flux-3-image/docs.webp)
 
 ## 国内使用注意
 

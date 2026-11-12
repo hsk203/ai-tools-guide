@@ -39,6 +39,8 @@ Claude Meetings 没有单独定价，也没有免费档，它是 Team 与 Enterp
 
 以上套餐价来自 Claude 官网定价页（claude.com/pricing，2026 年 11 月 12 日核对），Team 需至少 2 个席位、最多 150 席。Anthropic 没有公布 Meetings 单独收费或正式版的定价，正式发布后是否加价、是否下放到 Pro，都以官网为准。
 
+![Claude 官网定价页，个人套餐 Free、Pro、Max、Ultra 四档价格](/images/tools/claude-meetings/pricing.webp)
+
 ## 怎么用
 
 1. 确认团队已开通 Claude Team 或 Enterprise 套餐，并由管理员在组织设置里开启 Meetings 功能，同时确认是否允许它加入有外部嘉宾的会议。

@@ -22,6 +22,8 @@ Prospero 诞生于 2026 年 10 月 21 日，作者是 nullprogram 博客的 Chri
 
 它本身不带模型：出厂不预置任何服务商，你需要自己接 llama.cpp、vLLM、LiteLLM、OpenRouter 这类 OpenAI 兼容接口，或 Anthropic 的 Messages API（支持扩展思考和提示缓存）。配置用一个纯文本 INI 文件（`~/.config/prospero/prospero.ini`）。2026 年 11 月的更新又加了 PDF 阅读和 OpenAI 订阅接入，迭代非常快。
 
+![Prospero 在 GitHub 上的开源仓库](/images/tools/prospero/home.webp)
+
 ## 能干什么
 
 - **指挥 Agent 写代码**：在原生窗口里开会话，让 Agent 读代码、改代码、跑测试，全程有文字记录和待办清单。
@@ -41,6 +43,8 @@ Prospero 诞生于 2026 年 10 月 21 日，作者是 nullprogram 博客的 Chri
 | Professional Edition（专业版） | $25 一次性 | itch.io 购买，内置跨平台远程部署引擎；不是订阅 |
 
 社区版在 GitHub 的 skeeto/prospero 仓库免费获取，专业版在作者的 itch.io 页面一次性付 $25，买断制。模型费用另算：本地 llama.cpp 不花钱，云端 API 按你自己的 Key 计费。注意一个版本口径出入：GitHub README 称支持 Windows、macOS、Linux 三平台，但 Hacker News 讨论指出专业版购买页一度只写 Windows 和 Mac；2026 年 11 月 9 日的开发日志称 Linux 构建已覆盖 RHEL 8 等老发行版，购买前以 itch.io 当前页面为准。
+
+![Prospero 在 itch.io 上的产品页（含专业版购买入口）](/images/tools/prospero/pricing.webp)
 
 ## 怎么用
 

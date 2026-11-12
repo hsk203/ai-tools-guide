@@ -21,6 +21,8 @@ Melius 是一个多模型 AI 创作画布：不用给 Veo、Kling、Seedance 每
 
 Melius 自称“给创作者的 AI 原生操作系统”，核心是一张无限画布加节点式工作流：每个提示词、图片、视频和音频都是画布上的一个节点，节点之间连线，一个节点的输出就是下一个节点的输入。平台接入了 117 个第三方模型，包括 Nano Banana、GPT Image、Flux 等图片模型，Veo、Kling、Seedance、MiniMax、Wan 等视频模型，以及 ElevenLabs 等音频模型。Mel 智能体会帮你搭工作流，也支持 API、CLI 和 MCP 接入。
 
+![Melius 官网首页：客户案例与合作品牌展示](/images/tools/melius/home.webp)
+
 ## 能干什么
 
 - **多模型同台对比**：同一个镜头可以分别走 Veo 3.1、Seedance 2.5、Kling 4.0 几个模型，哪个好用哪个，不用换平台、不用重复开户。官方的搭配建议是：大运镜和氛围光用 Veo 3.1，人物和面部一致性用 Seedance 2.5，对白镜头用 Kling 4.0，长镜头用 Wan 3.0。
@@ -40,6 +42,8 @@ Melius 自称“给创作者的 AI 原生操作系统”，核心是一张无限
 | Growth | $45/月 | 50,000 |
 | Professional | $99/月起 | 110,000–600,000（自选档位） |
 | Team | $63/席/月 | 每席 70,000，团队内共用 |
+
+![Melius 官网定价页：Creator、Growth、Professional 三档价格与积分](/images/tools/melius/pricing.webp)
 
 按月付的原价约为 Creator $20、Growth $50、Team $70/席，Professional 最高档的月费在官方定价页文本里没有直接标出，第三方核对的区间是 $99–$248 左右，具体以结账页为准。积分是通用货币，生成图片、视频和跑工作流都扣积分，不同模型、不同复杂度扣得不一样，生成前应用内会显示预计要花多少积分。Professional 档起步就是 11 万积分，适合每天大量生成的团队；个人用户从 Creator 档起步更划算，先用 2 万积分摸清自己每个视频的实际消耗再升级。
 

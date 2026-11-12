@@ -21,6 +21,8 @@ Framer AI Agents 是建站工具 Framer 内置的 AI 智能体，它不是给你
 
 Framer 本来就是设计师常用的无代码建站工具，2026 年 6 月的 Framer 3.0 把 AI 智能体放进了编辑器。官方定义是“一组内置于 Framer 的 AI 智能体”：从一句话或一个现有网站出发，让智能体创建页面、优化布局、更新 CMS 内容或检查 SEO，所有结果都落在画布上，保持可编辑。除了内置智能体，Framer 还提供 MCP 服务器，能把 Claude Code、Cursor、Codex 等外部 AI 工具连进 Framer 项目，2026 年 10 月上线时处于免费预览阶段，用量算在你自己的 AI 工具账上，不消耗 Framer 的 AI credits。
 
+![Framer 官网首页，带 AI 设计智能体的专业建站工具](/images/tools/framer-ai-agents/home.webp)
+
 ## 能干什么
 
 - **一句话建站**：描述你要的网站，比如“给一家咖啡馆做一页落地页，暖色调，突出周末市集”，智能体生成页面结构、文案和版式。
@@ -28,6 +30,8 @@ Framer 本来就是设计师常用的无代码建站工具，2026 年 6 月的 F
 - **管 CMS 与多语言**：更新 CMS 条目、批量改文案、做 AI 翻译，把网站翻成多语言版本。
 - **SEO 检查与修复**：让智能体检查页面 SEO 问题并给出修改建议。
 - **安全迭代**：改动可以先放进分支（Branches），在画布上检查确认后再合并发布，不怕 AI 一次改坏线上站；Skills 功能还能把你的工作方式存成可复用的指令，Contexts、Chats、Mentions、References 则用来给智能体喂上下文、图片和参考链接；模型可在 GPT、Sonnet、Opus、Fable 之间切换。
+
+![Framer AI 官网的 AI 设计界面](/images/tools/framer-ai-agents/feature.webp)
 
 ## 免费还是付费
 
@@ -41,6 +45,8 @@ Framer 本来就是设计师常用的无代码建站工具，2026 年 6 月的 F
 | Enterprise | 定制 | 定制 | 联系销售 |
 
 一个第三方实测显示，在免费账号里做一个落地页花了 142 credits，照此估算 Free 的 500 credits 约够做 3 次、Basic 每月约 7 次、Pro 每月约 21 次；Framer 官方则按每次约 300 credits 估算，实际消耗因任务复杂度而异，额度用到 80% 时会收到提醒。额外编辑席位 $20/月，内容编辑席位 $10/月。
+
+![Framer 官网定价页，Free、Basic、Pro 三档套餐与 AI credits 额度](/images/tools/framer-ai-agents/pricing.webp)
 
 ## 怎么用
 

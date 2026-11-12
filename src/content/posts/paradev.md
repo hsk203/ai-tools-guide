@@ -23,6 +23,8 @@ Paradev 的定位不是又一个编程 Agent，而是“Agent 的指挥台”。
 
 它支持 20 多种命令行 Agent，包括 Claude Code、Codex、OpenCode、Gemini CLI、Cursor Agent、Mistral Vibe、Kimi Code、Grok CLI 等，任何 CLI Agent 都能接进来，换 Agent 不用换工作流。代码在 GitHub 开源，采用 MIT 协议（2026 年 11 月 4 日起，此前为 Elastic License 2.0），桌面版 2.0.6 发布于 2026 年 11 月 8 日。需要注意：它不替你付模型费，模型调用直接走你自己的 Agent 订阅或 API Key，Paradev 不做中间代理。
 
+![Paradev 官网首页](/images/tools/paradev/home.webp)
+
 ## 能干什么
 
 - **并行跑多个任务**：重构、修 Bug、写测试分给不同 Agent，各自在独立工作树里干活，不会互相覆盖文件。
@@ -32,6 +34,8 @@ Paradev 的定位不是又一个编程 Agent，而是“Agent 的指挥台”。
 - **终端和 SDK 驱动**：除了桌面应用，还有 CLI、TypeScript SDK 和 MCP 服务器，可以用脚本或其他 Agent 来指挥 Paradev。
 
 它的短板也很明确：工作树只隔离文件，不隔离进程，也不保证合并时没有冲突，合代码仍要人工把关；也没有内置的“第二个模型复审”机制，审阅质量取决于你自己或你配置的 Agent。
+
+![Paradev 官网移动端功能展示](/images/tools/paradev/feature.webp)
 
 ## 免费还是付费
 
@@ -44,6 +48,8 @@ Paradev 的定位不是又一个编程 Agent，而是“Agent 的指挥台”。
 | Enterprise | 定制 | SAML SSO、SCIM、审计日志、SOC 2 Type II 报告 |
 
 价格以官网 paradev.com/pricing 为准。免费版对个人开发者基本够用，Pro 的价值主要在自动化和手机端查看；云端工作区是 Team、Ultra 才有的能力，按需升级。另提醒：模型费用另算，Claude、Codex 等订阅要自己另付。
+
+![Paradev 官网定价页](/images/tools/paradev/pricing.webp)
 
 ## 怎么用
 

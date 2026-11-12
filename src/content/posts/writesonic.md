@@ -23,6 +23,10 @@ Writesonic 起家于 2021 年的 AI 写作，2026 年 5 月做了大重组：砍
 
 平台覆盖三类事：GEO 追踪、AI 文章生成、网站审计。第三方评测引述的口碑不错，G2 评分 4.7/5，Trustpilot 4.6/5，但也提醒它 2026 年内多次调价，入门价已经翻倍，订阅前务必以官网定价页为准。
 
+![Writesonic 官网对 AI Search Loop 四步循环的介绍](/images/tools/writesonic/feature.webp)
+
+![Writesonic 官网首页](/images/tools/writesonic/home.webp)
+
 ## 能干什么
 
 - **GEO 追踪**：监测品牌在 ChatGPT、Gemini、Google AI Overviews 等 AI 回答里的出现频率、引用位置和情感倾向，看到竞争对手被引而你没有的缺口。
@@ -44,6 +48,8 @@ Writesonic 起家于 2021 年的 AI 写作，2026 年 5 月做了大重组：砍
 | Enterprise | 定制定价 | — | 追踪全部 8 个 AI 平台（另加 AI Mode、Perplexity、Claude、Grok、DeepSeek），完整 Action Center |
 
 注意两点：一是 Starter 只有 1 个用户，加不了人，想加人至少上 Basic；二是文章额度是硬上限，15 篇/月摊下来约 $5.3/篇，超了要加购（Growth 档加 20 篇要 $100/月）。另外官网提供 7 天无理由退款。
+
+![Writesonic 官网定价页](/images/tools/writesonic/pricing.webp)
 
 ## 怎么用
 

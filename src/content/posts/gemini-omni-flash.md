@@ -21,6 +21,8 @@ Gemini Omni 1.2 Flash 是 Google 在 2026 年 11 月 5 日正式推出的视频�
 
 Gemini Omni 1.2 Flash（模型代码 `gemini-omni-1.2-flash`）是 Google 的多模态视频模型，定位是“快、能对话、能编辑”。它接在 Gemini API 的 Interactions API 上，也集成在 Gemini 应用、Google Flow 和 Google Vids 里。输入可以是文字、图片或视频，输出是带原生音频的视频，单条 3–15 秒，24 帧/秒，分辨率 360p、720p、1080p、4K，画幅 16:9 或 9:16。它的上一代 1.1 版从 2026 年 12 月 3 日起自动转接到 1.2，按 1.2 的价格计费。Google 同时把 Veo 3.1 预览从 Gemini API 下线，Omni Flash 成了 Google 视频生成的主力路线。
 
+![Google AI Studio 官方文档：左侧导航可见 Gemini Omni Flash 模型入口](/images/tools/gemini-omni-flash/docs.webp)
+
 ## 能干什么
 
 - **文生视频**：写一段提示词，直接生成带配乐、音效和对白的短片，时长可按整秒在 3–15 秒之间指定，默认 10 秒。
@@ -39,6 +41,8 @@ API 没有免费层，每次调用都按量计费；免费额度只存在于 Gem
 | 720p（默认） | 约 $0.07 | 约 $1.04 |
 | 1080p（上采样） | $0.104 | $1.56 |
 | 4K（上采样） | $0.209 | $3.13 |
+
+![Google AI Studio 官方文档：Pricing 定价页入口](/images/tools/gemini-omni-flash/pricing.webp)
 
 注意 1080p 和 4K 是上采样得到，不是原生渲染。开通付费层最低预付 $5，约够生成 4 条 15 秒 720p 片段。和同行对比，实测价差很直观：Kling 4.0 的官方 API 约 $0.157/秒（720p），Runway Gen-4.5 是 $0.12/秒且自家模型不带原生音频，需要另外配音；Omni 1.2 在 720p 约 $0.07/秒还自带同步音频，是目前大厂模型里按秒最便宜的一档。它的短板也很明确：单条最长只有 15 秒，做不了长叙事；快速体育动作和复杂物理效果仍是官方承认的弱项。
 

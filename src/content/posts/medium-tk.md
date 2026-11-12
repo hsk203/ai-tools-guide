@@ -23,6 +23,8 @@ Medium TK 由 Medium 官方出品，名字来自新闻行业的“TK”，也就
 
 Medium 首席执行官 Tony Stubblebine 在 2026 年 11 月 9 日的发布文章里说得很直白：“TK 是健身房，Medium 是舞台。”意思是 TK 负责日常训练和打磨，Medium 负责公开发表和拿稿费，两边分工不同。Medium TK 此前是邀请制，2026 年 11 月 9 日起向所有 Medium 账号免费开放，没有付费档；网页、Android 和 iOS 都能用，暂时还没有原生桌面端。
 
+![Medium TK 官网首页](/images/tools/medium-tk/home.webp)
+
 ## 能干什么
 
 - **@TK 行内助手**：写作时在句子中间输入 @TK 就能提问、查事实、调出自己以前写过的内容，不用切出编辑器；官方强调“TK 不会替你写文章”，助手只帮你补信息、给反馈。
@@ -32,6 +34,8 @@ Medium 首席执行官 Tony Stubblebine 在 2026 年 11 月 9 日的发布文章
 - **导入旧内容**：一键导入你在 Medium 上发表过的全部文章，还能导入 Bear 和 Obsidian 的笔记库，支持 Markdown 导入导出。
 - **接外部 AI Agent**：自带 MCP 服务器和 Claude skill，可以让 Claude 等外部 Agent 读取你存在 Medium TK 里的观点、项目和未完成的想法。
 - **标注 AI 痕迹**：公开发布的笔记可以标明哪些是人工写的、哪些是 AI 写的，来源可以一路追溯到提示词。
+
+![Medium TK 官网功能介绍](/images/tools/medium-tk/feature.webp)
 
 ## 免费还是付费
 

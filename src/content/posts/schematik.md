@@ -22,6 +22,8 @@ Schematik 定位是“AI 硬件 IDE”，创始人 Sam Beek（前 VEED 成员）
 
 它支持 Arduino、ESP32 和 Raspberry Pi Pico 三类开发板。官网项目库里有很多现成例子：语音 AI 助手、AI 伴侣小脑袋、桌面语音助手、植物浇水机器人、$8 迷你游戏机等，用的都是 ESP32、OLED 屏、INMP441 麦克风、MAX98357A 功放这类常见的便宜模块。2026 年 10 月底它还上线了 Preview 功能，可以先在浏览器里用 3D 模拟跑一遍固件，确认没问题再去焊真实电路。
 
+![Schematik 官网首页](/images/tools/schematik/home.webp)
+
 ## 能干什么
 
 - **需求变方案**：输入“做一个会说话的桌搭助手”，它会选板子、挑模块、定引脚，输出完整项目。
@@ -31,6 +33,8 @@ Schematik 定位是“AI 硬件 IDE”，创始人 Sam Beek（前 VEED 成员）
 - **先模拟再动手**：Preview 在浏览器里模拟 Arduino Uno R3、Pico 或 ESP32 上跑固件，验证逻辑后再买零件、接线。
 
 它和 Cursor、Claude Code 的分工很清楚：后者擅长纯软件，Schematik 擅长“软件加硬件”的完整交付。但它不模拟模拟电路，复杂电路仍需人工复核；AI 给的引脚和代码也可能有错，上电前务必对照接线表逐根检查。
+
+![Schematik 官网的三步工作流：描述、审核、制作](/images/tools/schematik/feature.webp)
 
 ## 免费还是付费
 
@@ -49,6 +53,8 @@ Schematik 定位是“AI 硬件 IDE”，创始人 Sam Beek（前 VEED 成员）
 3. 需要时先用 Preview 在浏览器里模拟跑一遍，点一点虚拟按钮，确认交互符合预期。
 4. 按清单买零件（ESP32、OLED、麦克风、功放、喇叭、面包板、杜邦线），按接线图接线，断电接线、共地、3.3V 器件别接 5V。
 5. 用 USB 线连电脑，通过 Schematik 的 Deploy 按钮或 PlatformIO 烧录固件，填好 Wi-Fi 密码和用到的 AI 接口 Key（别写进公开分享的固件里）。
+
+![Schematik 社区项目页](/images/tools/schematik/docs.webp)
 
 ## 国内使用注意
 

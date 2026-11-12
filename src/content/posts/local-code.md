@@ -22,6 +22,8 @@ Local Code 是画图应用 Draw Things 团队做的 AI Agent，2026 年 9 月 12
 
 它内置了一套完整工具链：Python 3.14、Node.js 24、Shell、Git，还有文档工具和可操控的浏览器，整个应用约 600MB。模型按内存分档：Qwen 3.8 27B 约 10GB，16GB 内存起步、推荐 32GB；DeepSeek 4 Flash 0731 约 89GB，推荐 48GB 内存；DeepSeek 4.1 Flash 1017 约 376GB，推荐 64GB 内存，大模型用 SSD 流式加载，不用一次全读进内存。
 
+![Local Code 官网首页](/images/tools/local-code/home.webp)
+
 ## 能干什么
 
 - **写代码、审代码**：写 Python、JavaScript，搭网站和小应用，跑起来验证，改 Bug。
@@ -31,6 +33,8 @@ Local Code 是画图应用 Draw Things 团队做的 AI Agent，2026 年 9 月 12
 - **离线工作**：模型下载好之后，飞机上、没网的会议室里都能用，这是它相对云端 Agent 最大的优势。
 
 但本地模型的短板要说在前面：少数派的深度体验指出，在配置一般的 Mac 上，本地大模型出词速度只有个位数到几十个 Token/秒，一个简单的 GitHub 项目分析在高思考模式下可能接近 1 小时。Qwen 3.8 27B 能干活，但不是前沿水平，别指望它替代 Claude、GPT 这类云端模型。
+
+![Local Code 官网离线与沙盒功能展示](/images/tools/local-code/feature.webp)
 
 ## 免费还是付费
 

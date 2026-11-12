@@ -21,6 +21,8 @@ Cardboard AI 是一款用一句话指挥剪辑的 AI 视频编辑器：上传原
 
 Cardboard AI 是 2025 年成立、入选 Y Combinator 2026 年冬季班的 AI 视频编辑器，有网页版和 Mac 桌面版。它和传统剪辑软件的区别在于剪辑方式：你不是自己一刀一刀剪，而是像指挥剪辑师一样下指令，AI 先出初剪，你再用对话或直接拖时间线微调。它的剪辑代理叫 Director，背后用多模态大模型理解素材里说了什么、画面里发生了什么，再决定怎么拼。2026 年 9 月 28 日它上线了原生 Mac 应用，素材默认在本地剪，不用先上传，还能接你自己的 Claude Code 或 Codex 来当剪辑代理。
 
+![Cardboard AI 官网首页：Made with Cardboard 作品展示区](/images/tools/cardboard-ai/home.webp)
+
 ## 能干什么
 
 - **AI 出初剪**：上传素材或贴一个视频链接，描述想要的成片，比如“30 秒客户证言混剪”或“3 条广告变体”，几分钟就能拿到一条可编辑的初剪。
@@ -40,6 +42,8 @@ Cardboard AI 是 2025 年成立、入选 Y Combinator 2026 年冬季班的 AI �
 | Starter | $9 / $29 | 400 生成积分，无限无水印导出，NLE 导出，AI 音乐、翻译 |
 | Creator | $30 / $59 | 1,500 生成积分，高级模型、声音克隆、4K 导出、网络来源 B-roll |
 | Pro | $89 / $175 | 5,000 生成积分，全部模型、优先处理、10 GB 大文件 |
+
+![Cardboard AI 官网定价页：Lite、Starter、Creator、Pro 四档价格与权益](/images/tools/cardboard-ai/pricing.webp)
 
 按年付更便宜，第三方核对为 Starter 约 $20/月、Creator 约 $39/月、Pro 约 $125/月，但年付价在官方定价页的文本版里没有直接显示，以结账页为准。计费分两种积分：用量积分付给剪辑代理的分析、剪辑、字幕和配音，生成积分付给 AI 视频和图片生成。有实测者做一条短视频花了 78 个生成积分，重度生成用户建议直接上 Creator 档。Lite 在网页版是收费的，只有 Mac 版（Apple Silicon 机型）才免费，而且导出带水印、只有 3 次、不能用生成式 AI。
 

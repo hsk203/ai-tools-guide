@@ -21,6 +21,8 @@ Claude Sheets 是直接长在 Claude 对话里的 AI 电子表格：你用一句
 
 Claude Sheets 是 Anthropic 在 2026 年 11 月 10 日推出的 beta 功能，和 Claude 白板、Claude Data 同一批发布。它不是一个独立的表格软件，而是 Claude 里的一种 artifact（可交互的生成物），和 Claude 文档、幻灯片同属一个家族。你在对话里让 Claude 做一张表，它就生成一个真正的表格，而不是一段文字或一张图片；你和团队成员可以直接在单元格里改，Claude 也会在同一格子里继续帮你改，并高亮它动过的单元格。每张表默认是私有的，点分享按钮才能给别人看。它支持多标签页、跨表公式、格式与条件格式、下拉菜单、复选框和图表，也能查看公式、恢复历史版本。
 
+![Claude 帮助中心「Get started with Claude Sheets」介绍页](/images/tools/claude-sheets/home.webp)
+
 ## 能干什么
 
 它最适合“先搭表、再一起填”的轻量办公场景。比如让 Claude 做一份季度预算表：分收入、支出、汇总三个标签页，公式自动算合计，超支的格子标红；或者做一份客户跟进表：客户名、状态下拉菜单、下次联系日期、负责人，团队每天更新状态，Claude 帮你汇总本周要跟进的客户。它还能读你已有的数据：导入 CSV、Excel 或 Google Sheets 文件，或者直接从 Excel、Google Sheets 粘贴单元格，生成新的分析表。做完可以导出为 .xlsx 或 CSV 发给财务，也能通过“发送到”同步到 Airtable、Asana、monday.com 或 Smartsheet。但它不是 Excel 的替代品：beta 版没有数据透视表、受保护区域、查找替换、多列排序、筛选视图、多选下拉和 PDF 导出，也不支持宏、VBA、Power Query、DAX 和打印版式，更不能从已连接应用里拉实时数据。
@@ -39,6 +41,8 @@ Claude Sheets 没有单独收费，也没有免费档：它是所有付费套餐
 | Enterprise | $20/席/月，年付，另按 API 用量计费 | 可以（beta，需管理员开启） |
 
 以上价格来自 Claude 官网定价页（claude.com/pricing，2026 年 11 月 12 日核对），以官网为准。Anthropic 没有公布按张表或按单元格的单独计费，正式版是否改价也未说明。
+
+![Claude 官网定价页，个人套餐 Free、Pro、Max、Ultra 四档价格](/images/tools/claude-sheets/pricing.webp)
 
 ## 怎么用
 
