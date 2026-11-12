@@ -6,6 +6,7 @@ lang: zh-CN
 category: coding
 tags: ["AI 编程", "多 Agent", "Claude Code"]
 cover: tool
+coverImage: "/images/tools/paradev/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
