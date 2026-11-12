@@ -6,6 +6,7 @@ lang: zh-CN
 category: writing
 tags: ["AI 写作", "英文写作", "语法检查"]
 cover: tool
+coverImage: "/images/tools/grammarly-ai-agents/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
