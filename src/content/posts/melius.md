@@ -6,6 +6,7 @@ lang: zh-CN
 category: video
 tags: ["AI 视频", "多模型", "AI 画布"]
 cover: tool
+coverImage: "/images/tools/melius/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
