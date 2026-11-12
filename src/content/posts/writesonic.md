@@ -6,6 +6,7 @@ lang: zh-CN
 category: writing
 tags: ["AI 写作", "GEO", "SEO"]
 cover: tool
+coverImage: "/images/tools/writesonic/feature.webp"
 featured: false
 draft: false
 pricingModel: paid
