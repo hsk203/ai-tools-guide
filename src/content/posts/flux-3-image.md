@@ -6,6 +6,7 @@ lang: zh-CN
 category: art
 tags: ["AI 绘画", "FLUX", "版式控制"]
 cover: tool
+coverImage: "/images/tools/flux-3-image/home.webp"
 featured: false
 draft: false
 pricingModel: paid
