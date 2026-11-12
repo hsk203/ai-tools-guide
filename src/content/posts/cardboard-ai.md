@@ -6,6 +6,7 @@ lang: zh-CN
 category: video
 tags: ["AI 视频", "AI 剪辑", "视频编辑"]
 cover: tool
+coverImage: "/images/tools/cardboard-ai/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
