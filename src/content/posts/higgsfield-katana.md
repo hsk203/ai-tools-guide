@@ -6,6 +6,7 @@ lang: zh-CN
 category: video
 tags: ["AI 视频", "Claude", "视频剪辑"]
 cover: tool
+coverImage: "/images/tools/higgsfield-katana/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
