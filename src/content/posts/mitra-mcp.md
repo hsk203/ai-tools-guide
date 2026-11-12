@@ -6,6 +6,7 @@ lang: zh-CN
 category: coding
 tags: ["AI 编程", "MCP", "AI 电话"]
 cover: tool
+coverImage: "/images/tools/mitra-mcp/home.webp"
 featured: false
 draft: false
 pricingModel: paid
