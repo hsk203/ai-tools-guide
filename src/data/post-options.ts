@@ -7,6 +7,7 @@ export const categoryNames = [
   "office",
   "b2b",
   "sim",
+  "free",
 ] as const;
 export type Category = (typeof categoryNames)[number];
 export const categoryLabel = (category: string) =>
@@ -23,6 +24,7 @@ export function normalizeCategory(value: string): string {
     "AI 办公": "office",
     "B2B 软件": "b2b",
     "保号电话卡": "sim",
+    "免费资源": "free",
   };
   return (
     legacy[value] ??
