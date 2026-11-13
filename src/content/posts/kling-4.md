@@ -6,6 +6,7 @@ lang: zh-CN
 category: video
 tags: ["AI 视频", "可灵", "文生视频"]
 cover: tool
+coverImage: "/images/tools/kling-4/home.webp"
 featured: false
 draft: false
 pricingModel: freemium
@@ -16,6 +17,8 @@ updatedDate: 2026-11-12
 ---
 
 Kling 4.0（可灵 4.0）是快手 Kling AI 在 2026 年 10 月 15 日全面上线的第四代视频模型，单次生成最长 30 秒，还能用关键帧和参考素材精细控制镜头。
+
+![Kling 4.0 官网首页](/images/tools/kling-4/home.webp)
 
 ## 是什么
 
