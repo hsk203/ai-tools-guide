@@ -214,10 +214,37 @@ const older = posts[index + 1];
     </article>
     <aside class="article-sidebar">
       <nav class="card panel toc" aria-label={t("article.toc")}>
-        <h2 class="panel-title toc-title">
-          <span class="icon-[lucide--list]" aria-hidden="true"></span>
-          {t("article.toc")}
-        </h2>
+        <div class="toc-header">
+          <button
+            class="toc-header-btn"
+            id="toc-collapse"
+            type="button"
+            aria-label={t("article.tocCollapse")}
+          >
+            <span
+              class="icon-[lucide--layout-dashboard]"
+              aria-hidden="true"
+            ></span>
+          </button>
+          <span class="toc-header-pill">
+            <span
+              class="icon-[lucide--list-ordered]"
+              aria-hidden="true"
+            ></span>
+            {t("article.toc")}
+          </span>
+          <button
+            class="toc-header-btn"
+            id="toc-toggle-sub"
+            type="button"
+            aria-label={t("article.tocToggleSub")}
+          >
+            <span
+              class="icon-[lucide--newspaper]"
+              aria-hidden="true"
+            ></span>
+          </button>
+        </div>
         <ol>
           {(() => {
             let h2 = 0;
@@ -280,6 +307,17 @@ const older = posts[index + 1];
     window.addEventListener("scroll", update, { passive: true });
     window.addEventListener("resize", update);
     update();
+    const tocNav = document.querySelector<HTMLElement>("nav.toc");
+    document
+      .querySelector("#toc-collapse")
+      ?.addEventListener("click", () => {
+        tocNav?.classList.toggle("toc-collapsed");
+      });
+    document
+      .querySelector("#toc-toggle-sub")
+      ?.addEventListener("click", () => {
+        tocNav?.classList.toggle("toc-hide-sub");
+      });
     document
       .querySelector("#share-post")
       ?.addEventListener("click", async () => {
@@ -379,24 +417,76 @@ const older = posts[index + 1];
     top: 90px;
     order: 1;
   }
-  .toc-title {
+  .toc-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    background: var(--accent-soft);
+    border-radius: 999px;
+    padding: 4px;
+    margin: 0 0 14px;
+  }
+  .toc-header-pill {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: var(--accent);
+    background: linear-gradient(135deg, var(--accent), #fb923c);
     color: #fff;
     border-radius: 999px;
-    padding: 7px 16px;
+    padding: 6px 14px;
     font-size: 13px;
     font-weight: 600;
-    width: fit-content;
-    margin: 0 0 14px;
+    white-space: nowrap;
+  }
+  .toc-header-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    color: var(--muted);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 0;
+  }
+  .toc-header-btn:hover {
+    color: var(--accent);
+    background: rgba(0, 0, 0, 0.05);
+  }
+  .toc.toc-collapsed ol {
+    display: none;
+  }
+  .toc.toc-hide-sub li.nested {
+    display: none;
   }
   .toc ol {
     list-style: none;
-    padding: 0 0 0 14px;
+    padding: 0 0 0 16px;
     margin: 0;
     border-left: 1px solid var(--line);
+  }
+  .toc li {
+    position: relative;
+  }
+  .toc li::before {
+    content: "";
+    position: absolute;
+    left: -19px;
+    top: 1.05em;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1px solid var(--line);
+    background: var(--card, #fff);
+  }
+  .toc li:has(a.active)::before {
+    background: var(--accent);
+    border-color: var(--accent);
   }
   .toc li {
     margin: 11px 0;
