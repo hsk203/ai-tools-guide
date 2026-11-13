@@ -30,13 +30,13 @@ Claude Meetings 是 Anthropic 在 2026 年 11 月 10 日随 Claude Sheets、白�
 
 Claude Meetings 没有单独定价，也没有免费档，它是 Team 与 Enterprise 套餐里的 beta 功能，个人免费版和 Pro 版目前都用不上。费用就是你为团队套餐付的钱，用量计入套餐额度。
 
-| 套餐 | 价格（美元，不含税） | 能用 Claude Meetings 吗 |
-| --- | --- | --- |
-| Free | $0 | 不能 |
-| Pro | $20/月，按月付；年付 $17/月 | 不能 |
-| Team Standard | $25/席/月，按月付；年付 $20/席/月 | 可以（beta） |
-| Team Premium | $125/席/月，按月付；年付 $100/席/月 | 可以（beta） |
-| Enterprise | $20/席/月，年付，另按 API 用量计费 | 可以（beta） |
+| 套餐          | 价格（美元，不含税）                | 能用 Claude Meetings 吗 |
+| ------------- | ----------------------------------- | ----------------------- |
+| Free          | $0                                  | 不能                    |
+| Pro           | $20/月，按月付；年付 $17/月         | 不能                    |
+| Team Standard | $25/席/月，按月付；年付 $20/席/月   | 可以（beta）            |
+| Team Premium  | $125/席/月，按月付；年付 $100/席/月 | 可以（beta）            |
+| Enterprise    | $20/席/月，年付，另按 API 用量计费  | 可以（beta）            |
 
 以上套餐价来自 Claude 官网定价页（claude.com/pricing，2026 年 11 月 12 日核对），Team 需至少 2 个席位、最多 150 席。Anthropic 没有公布 Meetings 单独收费或正式版的定价，正式发布后是否加价、是否下放到 Pro，都以官网为准。
 

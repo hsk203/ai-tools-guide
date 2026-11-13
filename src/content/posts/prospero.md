@@ -38,10 +38,10 @@ Prospero 诞生于 2026 年 10 月 21 日，作者是 nullprogram 博客的 Chri
 
 ## 免费还是付费
 
-| 版本 | 价格 | 说明 |
-| --- | --- | --- |
-| Community Edition（社区版） | $0 | GitHub 开源，Unlicense（等同公共领域），可自由使用、修改 |
-| Professional Edition（专业版） | $25 一次性 | itch.io 购买，内置跨平台远程部署引擎；不是订阅 |
+| 版本                           | 价格       | 说明                                                     |
+| ------------------------------ | ---------- | -------------------------------------------------------- |
+| Community Edition（社区版）    | $0         | GitHub 开源，Unlicense（等同公共领域），可自由使用、修改 |
+| Professional Edition（专业版） | $25 一次性 | itch.io 购买，内置跨平台远程部署引擎；不是订阅           |
 
 社区版在 GitHub 的 skeeto/prospero 仓库免费获取，专业版在作者的 itch.io 页面一次性付 $25，买断制。模型费用另算：本地 llama.cpp 不花钱，云端 API 按你自己的 Key 计费。注意一个版本口径出入：GitHub README 称支持 Windows、macOS、Linux 三平台，但 Hacker News 讨论指出专业版购买页一度只写 Windows 和 Mac；2026 年 11 月 9 日的开发日志称 Linux 构建已覆盖 RHEL 8 等老发行版，购买前以 itch.io 当前页面为准。
 
