@@ -3,7 +3,7 @@ title: "出海必备：一个香港号码能帮你注册什么？港银开户、
 description: "一个香港手机号码，是出海注册的万能钥匙：汇丰、众安银行开户，Stripe、PayPal、Wise 验证，Telegram、WhatsApp、X 注册都能用。本文对比 HaHaSIM、Club SIM、MySIM、月神卡四张保号卡的最低保号成本，讲清楚它能注册什么、注册不了什么，以及激活和保号的实操提醒。"
 date: 2026-11-13
 lang: zh-CN
-category: b2b
+category: sim
 tags: ["香港电话卡", "HaHaSIM", "Club SIM", "港银开户", "收验证码"]
 cover: tool
 coverImage: "/images/hk-sim/home.webp"
