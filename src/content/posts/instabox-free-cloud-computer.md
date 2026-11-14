@@ -84,11 +84,9 @@ npx instabox@latest sh
 
 同样打"免费云电脑"主意的产品有几家，区别要分清：
 
-| 产品 | 一句话区别 |
-| --- | --- |
-| **Simular Box**（box.simular.ai） | 同样是给 AI 用的免费云 Linux 桌面，但所有 Agent 共用一台电脑、走一个 MCP 链接；InstaBox 是每个 Agent 各一台独立 VM。注意：Simular 的免费 beta 已于 2026 年 11 月 12 日结束，不再每天刷新积分 |
-| **Cube**（cube.computer） | 持久型云端 Linux 电脑，可按需选规格到 32 vCPU / 64GB；新用户送 $25 免费额度，开放注册不用邀请。更像一台通用云电脑，不是 Agent 沙箱 |
-| **Oracle Cloud 免费套餐** | 真正的免费 VPS：2 OCPU / 12GB ARM 实例 + 200GB 存储，有独立公网 IPv4，不自动暂停，适合 24/7 常驻。缺点是新加坡区经常无容量，要长期排队抢 |
+- **Simular Box（box.simular.ai）**：同样是给 AI 用的免费云 Linux 桌面，但所有 Agent 共用一台电脑、走一个 MCP 链接；InstaBox 是每个 Agent 各一台独立 VM。注意：Simular 的免费 beta 已于 2026 年 11 月 12 日结束，不再每天刷新积分
+- **Cube（cube.computer）**：持久型云端 Linux 电脑，可按需选规格到 32 vCPU / 64GB；新用户送 $25 免费额度，开放注册不用邀请。更像一台通用云电脑，不是 Agent 沙箱
+- **Oracle Cloud 免费套餐**：真正的免费 VPS：2 OCPU / 12GB ARM 实例 + 200GB 存储，有独立公网 IPv4，不自动暂停，适合 24/7 常驻。缺点是新加坡区经常无容量，要长期排队抢
 
 三者定位不同：要独立 Agent 沙箱选 InstaBox，要通用云电脑选 Cube，要 24 小时常驻 VPS 选 Oracle 免费套餐。
 
